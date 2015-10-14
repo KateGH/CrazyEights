@@ -66,5 +66,8 @@ Team:
 	Vi kör endast en sprint (ett kortspel).
 
 
+TO DO:
+Fråga Oscar hur man skiljer önskelista (som kund) och features (som utvecklare) på Trello
+
 *** Nästa möte: 2015-10-15 vid eller efter lunch på JENSEN ***
 

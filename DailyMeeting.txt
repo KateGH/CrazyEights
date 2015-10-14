@@ -1,6 +1,6 @@
 Projekt: Crazy Eights
 
-Medlemmer:
+Team:
 	Havva (Scrum master)
 	Kate
 	Shereen
@@ -17,7 +17,17 @@ Medlemmer:
 
 	Rules:
 	In a two-player game, each player is dealt five cards.
-	The rest of the deck goes facedown in a pile, with the top card turned up beside it. This is the discard pile. The player to the left of the dealer discards a card from his hand that matches either the number or suit of the top card in the discard pile. For example, if the card is a five of hearts, he could play any heart or any five. If he does not have a matching card, he continues picking up cards from the deck until he gets one that is playable (max twice). Eights are wild and can be put down on any suit. For example, an eight could be played to match a heart. The next player must match their card to the number or suit that the eight was meant to cover. Play continues with players matching the card at the top of the discard pile. The first player to use up all his cards wins. If the deck runs out before the game is over, the discard pile can be used.
+	The rest of the deck goes facedown in a pile, with the top card turned up beside it.
+	This is the discard pile.
+	The player to the left of the dealer discards a card from his hand that matches either the number or suit of the top card in the discard pile.
+	For example, if the card is a five of hearts, he could play any heart or any five.
+	If he does not have a matching card, he continues picking up cards from the deck until he gets one that is playable (max twice).
+	Eights are wild and can be put down on any suit.
+	For example, an eight could be played to match a heart.
+	The next player must match their card to the number or suit that the eight was meant to cover.
+	Play continues with players matching the card at the top of the discard pile.
+	The first player to use up all his cards wins.
+	If the deck runs out before the game is over, the discard pile can be used.
 
 2. Sätt upp en release backlog för ett av kortspelen, förslagsvis börjar ni med det enklaste att implementera.
 
@@ -53,7 +63,7 @@ Medlemmer:
 	https://www.burndownfortrello.com/
 
 7. När ett kortspel är klart (en release är klar) upprepar ni från steg 2.
-Vi kör endast en sprint (ett kortspel).
+	Vi kör endast en sprint (ett kortspel).
 
 
 *** Nästa möte: 2015-10-15 vid eller efter lunch på JENSEN ***

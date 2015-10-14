@@ -1,0 +1,60 @@
+Projekt: Crazy Eights
+
+Medlemmer:
+	Havva (Scrum master)
+	Kate
+	Shereen
+	Mi
+
+
+2015-10-14
+
+1. Planera en release av ett program för terminalen/kommandotolken där man kan spela ett kortspel
+	Vi kör endast Crazy Eights.
+
+	Number of players: 2
+	Cards: Standard deck of 52 cards
+
+	Rules:
+	In a two-player game, each player is dealt five cards.
+	The rest of the deck goes facedown in a pile, with the top card turned up beside it. This is the discard pile. The player to the left of the dealer discards a card from his hand that matches either the number or suit of the top card in the discard pile. For example, if the card is a five of hearts, he could play any heart or any five. If he does not have a matching card, he continues picking up cards from the deck until he gets one that is playable (max twice). Eights are wild and can be put down on any suit. For example, an eight could be played to match a heart. The next player must match their card to the number or suit that the eight was meant to cover. Play continues with players matching the card at the top of the discard pile. The first player to use up all his cards wins. If the deck runs out before the game is over, the discard pile can be used.
+
+2. Sätt upp en release backlog för ett av kortspelen, förslagsvis börjar ni med det enklaste att implementera.
+
+	Önskelista
+		* 2 spelare med datorn
+		* 5 kort delade (inte 7) till varje spelare
+		* man kan ta ett kort till max två ggr i rad innan man deklaerar pass.
+		* 2 passes (en var) blir draw.
+
+	egenskaper
+		välkomst text
+		regler
+		avslutknappen / försätta
+		ränka poäng 1 poäng /
+		frågar spelarens namn
+		result (vem vinner)
+
+	Benefit (som produktägare)
+		många inkl. barn kan spela
+		spelare kan spela utan svårigheter
+
+3. Utse en person i gruppen som SCRUM-mästare. Detta kan ni t.ex. slumpa fram med Java.
+	Havva
+
+4. Från er release backlog tar ni fram en sprint. Använd Trello till er hjälp. Varje sprint ska ha en egen board i Trello.
+	https://trello.com/b/8Q4VktAM/crazy8
+
+5. Genomför daglia SCRUM-möten där ni tar reda på vad ni gjort sen senast, vad ni ska göra till nästa gång samt eventuella hinder.
+	Alla ska börja koda redan idag enligt flödesshcemat och pseudo-koden från tidigare.
+	Mi ska göra en Burn-down chart, ett github-repo och sammanfattning av danliga möte.
+
+6. Ta fram en burndown chart och håll den uppdaterad för att se hur arbetet går.
+	https://www.burndownfortrello.com/
+
+7. När ett kortspel är klart (en release är klar) upprepar ni från steg 2.
+Vi kör endast en sprint (ett kortspel).
+
+
+*** Nästa möte: 2015-10-15 vid eller efter lunch på JENSEN ***
+

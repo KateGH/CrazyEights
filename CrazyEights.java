@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class CrazyEights { // *1
 
 	public boolean endGame = false;
+	public int nrOfCardsInPlayingDeck;
 	public Scanner keyboard = new Scanner(System.in);
 
 	public Player currentPlayer;
@@ -11,6 +12,10 @@ public class CrazyEights { // *1
 
 	public static void main(String[] args) {
 		new CrazyEights(); // create a new instance of *1, will call *1 constructor
+
+		/* Why only create an object in the main method insted of writing all the code here?
+			Answer: In this way you don't have to use static methods. Static methods do not allow you to create many instances, because you cannot use "this" inside of static methods.
+		*/
 	}
 
 	public CrazyEights() { // constructor of *1
@@ -24,9 +29,28 @@ public class CrazyEights { // *1
 			// initGame();
 			currentPlayer = p1;
 
-			// game play
 			changeTurn();
+
+			//en metod som skapar en ny deck
+
+			CardsInPlayingDeck
+
+
 			checkRestart();
+		}
+	}
+
+	public ArrayList DeckofCards() {
+		if (nrOfCardsInPlayingDeck == 0) {
+
+		}
+		return
+
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		numbers.add(5);
+		numbers.add(11);
+		numbers.add(3);
+		return ;
 		}
 	}
 

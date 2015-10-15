@@ -25,27 +25,34 @@ Team:
 
 	CrazyEights (main metoden finns här)
 
-	DeckOfCards	
+	DeckOfCards
 		52 objekt
 
 	Player
 		String name
 		int score
 
+		Player objekt:
+			p1 (human)
+			p2 (datorn)
+
 	PlayingCards
-		int nrOfCardsInPlayingDeck (class variabel)		
+		int nrOfCardsInPlayingDeck (class variabel)
 		arrayList CardsInPlayingDeck
 		int nrOfCardsInHand (instance variabel)
-		DeckofCards cardFaceUp
+		DeckofCards
+		cardFaceUp
 		initGame
 		isCurrentPlayer
 		countPass
+		changeTurn (metod)
 		drawNewCard
 		discardCard
-		hasMatchingCard		
+		hasMatchingCard
 		isEight (spelaren får välja nästa färg. Datorn tar sista kortets färg eller en random färg av de färger den har kvar)
 		isWinner (boolean. kollar om currentPlayer vinner)
 		isDraw
+		checkRestart (metod som frågar om spelaren vill spela igen eller avsluta)
 
 	RandomCards
 

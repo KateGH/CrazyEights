@@ -8,6 +8,16 @@ Team:
 
 2015-10-15
 
+	Vad har gjorts?
+		- Blanda kort (Shuffle cards)
+
+	Hinder?
+		- Vi saknar klasser/objekt/motoder/variabler för att jobba samtidigt.
+
+	Vad göra tills nästa gång?
+		- Börja med koding.
+		- Läs om git och uppdatera koden på github.
+
 	Spela kort på riktigt för att förstå regler.
 
 

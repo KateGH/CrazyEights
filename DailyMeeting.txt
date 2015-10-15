@@ -6,6 +6,41 @@ Team:
 	Shereen
 	Mi
 
+2015-10-15
+
+	Spela kort på riktigt för att förstå regler.
+
+
+	Klasser/objekt/motoder/variabler:
+
+	CrazyEights (main metoden finns här)
+
+	DeckOfCards	
+		52 objekt
+
+	Player
+		String name
+		int score
+
+	PlayingCards
+		int nrOfCardsInPlayingDeck (class variabel)		
+		arrayList CardsInPlayingDeck
+		int nrOfCardsInHand (instance variabel)
+		DeckofCards cardFaceUp
+		initGame
+		isCurrentPlayer
+		countPass
+		drawNewCard
+		discardCard
+		hasMatchingCard		
+		isEight (spelaren får välja nästa färg. Datorn tar sista kortets färg eller en random färg av de färger den har kvar)
+		isWinner
+		isDraw
+
+	RandomCards
+
+	nästa möte: 2015-10-16 kl13:00 på Slack
+
 
 2015-10-14
 

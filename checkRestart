@@ -1,0 +1,36 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class Crazy8
+{
+
+	public static void main(String[] args)
+	{
+		
+		char playAgain;							                  // instance variables
+		int countP1 = 0, countP2 = 0, countPP = 0;
+		Scanner input = new Scanner(System.in);
+		
+		Do{
+		
+			
+			
+			
+		System.out.println("");
+		
+		System.out.print("Do you want to play again (Y/N)?: ");
+		playAgain = input.next().charAt(0);
+		if (playAgain == 'N' || playAgain == 'n')
+		{
+			System.out.println("You played " + (countP1 + countP2 + countPP) + " games");
+			System.out.println(player01 + " won " + countP1 + " games");
+			System.out.println(player02 + " won " + countP2 + " games");
+			System.out.println("Draw " + countPP + " games");
+			System.out.println("Thank you for playing!!");
+			break;
+		}
+		
+	
+		} while (playAgain == 'Y' || playAgain == 'y');
+	}
+}
